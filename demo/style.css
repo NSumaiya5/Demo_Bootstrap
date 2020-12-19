@@ -1,0 +1,154 @@
+html{
+	scroll-behaivor:smooth;
+}
+
+body{
+	/*font-family: 'Handlee', cursive;    'Roboto', sans-serif;*/
+font-family: 'Montserrat', sans-serif;
+}
+
+.section-title h3{
+	font-weight:bolder;
+	text-align:center;
+	margin-bottom:0;
+}
+.hr-style{
+	border:5px dotted black;
+	border-bottom:none;
+	width:50px;
+}
+header{
+ background-image:url("img/b.jpeg");
+ background-position:center;
+ background-repeat:no-repeat;
+ background-size:cover;
+ background-attachment:fixed;
+ 
+}
+.banner-container{
+	height:200vh;
+}
+.navbar{
+	height:80px;
+	background-color:rgba(0,0,0,0.3);
+	
+}
+.nav-link{
+	color:white;
+	margin:10px;
+	border-radius:5px;
+	transition:.4s;
+}
+	
+.nav-link:hover{
+	color:white;
+	background:black;
+	transform:scale(1.1);
+	
+	
+}
+.banner h1{
+	font-family: 'Handlee', cursive;
+}
+/*features-section*/
+#features{
+	background:#e8ded2;
+	padding:5% 10%;
+}
+.features-col{
+	border:1px solid #ff02c0;
+	border-radius:5px;
+	padding:15px;
+	margin:20px 0;
+	transition:.4s;
+}
+.features-col:hover{
+	transform:scale(1.1);
+	box-shadow:2px 6px 5px black;
+}
+.icon-style{
+	background:#bb0aac;
+	color:white;
+	padding:15px;
+	margin:5px 0;
+}
+/*About-section*/
+#about-me{
+	padding:4% 10%;
+	background:#e8ded2;
+	}
+#about-me p{
+	font-size:0.9rem;
+	font-weight:light;
+	margin-bottom:0;
+}
+.achieve-desc span{
+	font-weight:700 !important;
+}
+.star i{
+	width:20px;
+}
+/*tutorial,,,,,,,,,,*/
+#tutorial{
+	padding:4% 10%;
+	background:#a3d2ca;
+}
+.card{
+	transition:.4s;
+	border:1px solid #266cde;
+}
+.card:hover{
+	transform:scale(1.1);
+	box-shadow:2px 6px 5px black;
+}
+#feedback{
+	padding:5%;
+	background:#5eaaa8;
+}
+/*feedback....*/
+.carousel-item{
+	text-align:center;
+	padding:7% 15%;
+	font-style:italic;
+	font-size:1.2rem;
+	
+}
+.feedback-img{
+	width:100px;
+	height:90px;
+	margin-bottom:5px;
+
+}
+/*contact,,,,*/
+#contact{
+	padding:2% 10%;
+	background:#5aeee8;
+}
+.form-group label{
+	font-weight:bolder;
+}
+/*footer*/
+footer{
+	padding:1% 10%;
+	background:#3d9dd9;
+}
+footer a{
+	color:white;
+	margin:0 10px;
+}
+footer a:hover{
+	color:black;
+}
+@media(max-width:768px){
+	.nav-link{
+		background:rgb(0,0,0,0.7);
+	}
+	.banner-container h1{
+		font-size:2.5rem;
+	}
+		
+}
+
+
+	
+	
